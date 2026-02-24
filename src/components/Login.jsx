@@ -21,7 +21,7 @@ function Login(){
       localStorage.setItem("role",validUser.role);
       localStorage.setItem("username",validUser.username);
 
-      navigate("/products");
+      navigate("/home");
 
     }else{
       alert("Invalid credentials");
